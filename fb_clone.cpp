@@ -1223,10 +1223,10 @@ public:
 	// Fuction of class Facebook that loads all the files.
 	void LoadData() 
 	{
-		LoadPages("SocialNetworkPages.txt");
-		LoadUsers("SocialNetworkUsers.txt");
-		LoadPosts("SocialNetworkPosts.txt");
-		LoadComments("SocialNetworkComments.txt");
+		LoadPages("pages.txt");
+		LoadUsers("user.txt");
+		LoadPosts("post.txt");
+		LoadComments("comment.txt");
 	}
 
 	// Function that Loads the pages file
